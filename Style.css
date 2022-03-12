@@ -34,7 +34,7 @@
 .transparent-text{
   font-family: sans-serif;
   text-transform: uppercase;
-  background: #494949;;                          
+  background: #494949;                           
   display: table;
   margin: 20px auto;
   color: white;
@@ -215,13 +215,14 @@
   position: fixed;
   display: none;
   z-index: 9999;
-  bottom: 15;  
+  bottom: 15px;  
   right: 45px;
   font-size: 2.9em;
+  text-decoration: none;
 }
 .totop i{
   text-decoration: none;
-  color: #888;
+  color: #494949;
 }
 .totop i:hover{
   color:rgb(39, 39, 39);
