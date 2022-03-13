@@ -76,21 +76,21 @@
     <div class="second-line">
       <div class="row">
     <div class="col-4">                <!--First item -->
-      <img src="Image/Mask.png">
+      <img class="zoom-img" src="Image/Mask.png">
     <div class="product-info">
       <p class="name">Футболка | Mask</p>
       <p class="price">520 грн.</p>
     </div>
     </div>
     <div class="col-4">
-      <img src="Image/Crahs.png">      <!--Second item -->
+      <img class="zoom-img" src="Image/Crahs.png">      <!--Second item -->
       <div class="product-info">
         <p class="name">Футболка | Crash</p>
         <p class="price">649 грн. <del>700 грн.</del></p>
       </div>
     </div>
       <div class="col-4">
-        <img src="Image/Tosia.png">    <!--Third item -->
+        <img class="zoom-img" src="Image/Tosia.png">    <!--Third item -->
     <div class="product-info">
       <p class="name">Футболка | Tosia</p>
       <p class="price">400 грн.</p>
@@ -113,6 +113,7 @@
   
   </div>
 </footer>
+<!--Navigation-->
 <script>
   function toggleNav() {
     if($('#mySidenav').attr('data-active') == 'false') {
@@ -138,7 +139,7 @@ $('.totop').click(function(e){
 </script>
 <script>
 $(window).scroll(function(e) {
-   if($(window).scrollTop()>=200) {
+   if($(window).scrollTop()>=500) {
      $('div.scroll').fadeIn(200);
    } else {
      $('div.scroll').fadeOut(200);
