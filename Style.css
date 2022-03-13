@@ -186,6 +186,8 @@
   text-align: center;
   background-color: white;
   cursor: pointer;
+  font-size: 15px;
+  color: #484848;
 }
 .product a{
   text-decoration: none;
@@ -194,7 +196,7 @@
   white-space: nowrap;
 }
 .product a:hover{
-  color: #494949;
+  color: black;
 }
 .price{
   margin-bottom: 15px;
@@ -209,6 +211,7 @@
   text-decoration: none;
 }
 .product del{
+  font-size: ;
   color: #484848;
 }
 .scroll{
@@ -269,9 +272,11 @@
   padding: 0 4px;
   min-width: 32px;
   cursor: pointer;
+  transition: 0.3s;
 }
 .product-size-button :hover{
-
+  border: 1px solid white;
+  color: white;
 }
 .footer{
   display: flex;
