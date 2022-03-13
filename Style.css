@@ -242,6 +242,37 @@
 .product-info{
   text-align: center;
 }
+.product-info h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color:#494949;
+}
+.product-info p{
+  font-size: 20px;
+  color: #484848;
+  padding-top: 10px;
+}
+.hr-line{
+  border: 0.5px solid;
+  color:#494949;
+}
+.product-size-button{
+  color: #000;
+  border: 1px solid #000;
+  font-size: 1rem;
+  width: auto;
+  line-height: 30px;
+  display: inline-block;
+  border-radius: 7px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  padding: 0 4px;
+  min-width: 32px;
+  cursor: pointer;
+}
+.product-size-button :hover{
+
+}
 .footer{
   display: flex;
   flex-direction: row;
