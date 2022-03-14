@@ -186,8 +186,7 @@
   text-align: center;
   background-color: white;
   cursor: pointer;
-  font-size: 15px;
-  color: #484848;
+  font-size: 20px;
 }
 .product a{
   text-decoration: none;
@@ -202,16 +201,17 @@
   margin-bottom: 15px;
 }
 .name{
-  font-size: 15px;
+  font-size: 17px;
   margin-bottom: 3px;
   text-decoration: none;
   margin-top:20px ;
 }
 .price{
   text-decoration: none;
+  font-size: 13px;
 }
 .product del{
-  font-size: ;
+  font-size: 12px;
   color: #484848;
 }
 .scroll{
@@ -255,9 +255,10 @@
   color: #484848;
   padding-top: 10px;
 }
-.hr-line{
+.product-info hr{
   border: 0.5px solid;
   color:#494949;
+  margin: 2rem 0;
 }
 .product-size-button{
   color: #000;
