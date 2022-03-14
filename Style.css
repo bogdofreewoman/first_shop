@@ -232,8 +232,9 @@
   transition: 0.3s;
 }
 .small img{
-  width: 50%;
+  width: 40%;
   height: auto;
+  border: 1px solid red;
 }
 .small :hover{
   color:black;
@@ -241,6 +242,7 @@
 .m-image img{
   width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 .product-info{
   text-align: center;
@@ -253,31 +255,56 @@
 .product-info p{
   font-size: 20px;
   color: #484848;
-  padding-top: 10px;
+  padding: 10px;
 }
 .product-info hr{
   border: 0.5px solid;
   color:#494949;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 .product-size-button{
   color: #000;
   border: 1px solid #000;
   font-size: 1rem;
   width: auto;
-  line-height: 30px;
+  line-height: 33px;
   display: inline-block;
   border-radius: 7px;
   margin-right: 12px;
   margin-bottom: 12px;
   padding: 0 4px;
-  min-width: 32px;
+  min-width: 35px;
   cursor: pointer;
   transition: 0.3s;
 }
-.product-size-button :hover{
-  border: 1px solid white;
-  color: white;
+.product-size-button:hover{
+  border: 1px solid #494949;
+  background-color: #ccc7ce;
+}
+.buy-button{
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 20px;
+  color: #494949;
+  font-family: Arial, Helvetica, sans-serif;
+  border:1px solid #ccc7ce;
+  width: 220px;
+  line-height: 50px;
+  background-color: #ccc7ce;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+.buy-button a{
+  color: #000;
+}
+.buy-button i{
+  padding-right: 6px;
+}
+.buy-button:hover{
+ color:white;
+ background-color:#5cb85c; 
+ transition: 0.3s;
 }
 .footer{
   display: flex;
