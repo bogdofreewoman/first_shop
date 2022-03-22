@@ -1,3 +1,6 @@
+<?php
+include_once ("db_connection.php"); 
+?>
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
